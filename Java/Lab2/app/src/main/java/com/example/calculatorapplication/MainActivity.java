@@ -288,7 +288,6 @@ public class MainActivity extends AppCompatActivity {
         divide.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                //operations+="/";
                 if(lastNumeric && div == false){
                     num1 = Double.parseDouble(txtScreen.getText() + "");
                     div = true;
@@ -351,7 +350,6 @@ public class MainActivity extends AppCompatActivity {
 
         equal.setOnClickListener(new View.OnClickListener() {
             NumberFormat nf = new DecimalFormat("#.######");
-
             @Override
             public void onClick(View v) {
                 lastDot = false;
